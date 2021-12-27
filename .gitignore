@@ -1,4 +1,2 @@
 /.idea
 /.vscode
-php/log/*
-nginx/log/*
