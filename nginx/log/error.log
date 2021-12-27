@@ -1,0 +1,835 @@
+2021/12/27 13:39:11 [notice] 1#1: using the "epoll" event method
+2021/12/27 13:39:11 [notice] 1#1: nginx/1.21.4
+2021/12/27 13:39:11 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/12/27 13:39:11 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/12/27 13:39:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/27 13:39:11 [notice] 1#1: start worker processes
+2021/12/27 13:39:11 [notice] 1#1: start worker process 31
+2021/12/27 13:39:11 [notice] 1#1: start worker process 32
+2021/12/27 13:39:11 [notice] 1#1: start worker process 33
+2021/12/27 13:39:11 [notice] 1#1: start worker process 34
+2021/12/27 13:39:11 [notice] 1#1: start worker process 35
+2021/12/27 13:39:11 [notice] 1#1: start worker process 36
+2021/12/27 13:39:11 [notice] 1#1: start worker process 37
+2021/12/27 13:39:11 [notice] 1#1: start worker process 38
+2021/12/27 13:39:31 [error] 31#31: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.27.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.2:9000", host: "127.0.0.1:8080"
+2021/12/27 13:39:32 [error] 31#31: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.27.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.2:9000", host: "127.0.0.1:8080"
+2021/12/27 13:39:33 [error] 31#31: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.27.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.2:9000", host: "127.0.0.1:8080"
+2021/12/27 13:40:16 [error] 32#32: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.27.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.2:9000", host: "127.0.0.1:8080"
+2021/12/27 13:40:20 [error] 32#32: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.27.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.2:9000", host: "127.0.0.1:8080"
+2021/12/27 13:42:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/27 13:42:52 [notice] 32#32: gracefully shutting down
+2021/12/27 13:42:52 [notice] 33#33: gracefully shutting down
+2021/12/27 13:42:52 [notice] 31#31: gracefully shutting down
+2021/12/27 13:42:52 [notice] 31#31: exiting
+2021/12/27 13:42:52 [notice] 35#35: gracefully shutting down
+2021/12/27 13:42:52 [notice] 35#35: exiting
+2021/12/27 13:42:52 [notice] 37#37: gracefully shutting down
+2021/12/27 13:42:52 [notice] 38#38: gracefully shutting down
+2021/12/27 13:42:52 [notice] 36#36: gracefully shutting down
+2021/12/27 13:42:52 [notice] 34#34: gracefully shutting down
+2021/12/27 13:42:52 [notice] 32#32: exiting
+2021/12/27 13:42:52 [notice] 33#33: exiting
+2021/12/27 13:42:52 [notice] 31#31: exit
+2021/12/27 13:42:52 [notice] 33#33: exit
+2021/12/27 13:42:52 [notice] 35#35: exit
+2021/12/27 13:42:52 [notice] 37#37: exiting
+2021/12/27 13:42:52 [notice] 38#38: exiting
+2021/12/27 13:42:52 [notice] 36#36: exiting
+2021/12/27 13:42:52 [notice] 38#38: exit
+2021/12/27 13:42:52 [notice] 34#34: exiting
+2021/12/27 13:42:52 [notice] 32#32: exit
+2021/12/27 13:42:52 [notice] 37#37: exit
+2021/12/27 13:42:52 [notice] 36#36: exit
+2021/12/27 13:42:52 [notice] 34#34: exit
+2021/12/27 13:42:52 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/12/27 13:42:52 [notice] 1#1: worker process 35 exited with code 0
+2021/12/27 13:42:52 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 13:42:52 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/27 13:42:52 [notice] 1#1: worker process 31 exited with code 0
+2021/12/27 13:42:52 [notice] 1#1: worker process 32 exited with code 0
+2021/12/27 13:42:52 [notice] 1#1: worker process 34 exited with code 0
+2021/12/27 13:42:52 [notice] 1#1: worker process 36 exited with code 0
+2021/12/27 13:42:52 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 13:42:52 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/12/27 13:42:52 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/27 13:42:52 [notice] 1#1: worker process 33 exited with code 0
+2021/12/27 13:42:52 [notice] 1#1: worker process 37 exited with code 0
+2021/12/27 13:42:52 [notice] 1#1: worker process 38 exited with code 0
+2021/12/27 13:42:52 [notice] 1#1: exit
+2021/12/27 13:43:03 [notice] 1#1: using the "epoll" event method
+2021/12/27 13:43:03 [notice] 1#1: nginx/1.21.4
+2021/12/27 13:43:03 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/12/27 13:43:03 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/12/27 13:43:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/27 13:43:03 [notice] 1#1: start worker processes
+2021/12/27 13:43:03 [notice] 1#1: start worker process 31
+2021/12/27 13:43:03 [notice] 1#1: start worker process 32
+2021/12/27 13:43:03 [notice] 1#1: start worker process 33
+2021/12/27 13:43:03 [notice] 1#1: start worker process 34
+2021/12/27 13:43:03 [notice] 1#1: start worker process 35
+2021/12/27 13:43:03 [notice] 1#1: start worker process 36
+2021/12/27 13:43:03 [notice] 1#1: start worker process 37
+2021/12/27 13:43:03 [notice] 1#1: start worker process 38
+2021/12/27 13:45:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/27 13:45:25 [notice] 32#32: gracefully shutting down
+2021/12/27 13:45:25 [notice] 32#32: exiting
+2021/12/27 13:45:25 [notice] 33#33: gracefully shutting down
+2021/12/27 13:45:25 [notice] 34#34: gracefully shutting down
+2021/12/27 13:45:25 [notice] 36#36: gracefully shutting down
+2021/12/27 13:45:25 [notice] 35#35: gracefully shutting down
+2021/12/27 13:45:25 [notice] 37#37: gracefully shutting down
+2021/12/27 13:45:25 [notice] 31#31: gracefully shutting down
+2021/12/27 13:45:25 [notice] 38#38: gracefully shutting down
+2021/12/27 13:45:25 [notice] 32#32: exit
+2021/12/27 13:45:25 [notice] 33#33: exiting
+2021/12/27 13:45:25 [notice] 34#34: exiting
+2021/12/27 13:45:25 [notice] 36#36: exiting
+2021/12/27 13:45:25 [notice] 35#35: exiting
+2021/12/27 13:45:25 [notice] 37#37: exiting
+2021/12/27 13:45:25 [notice] 31#31: exiting
+2021/12/27 13:45:25 [notice] 38#38: exiting
+2021/12/27 13:45:25 [notice] 33#33: exit
+2021/12/27 13:45:25 [notice] 38#38: exit
+2021/12/27 13:45:25 [notice] 34#34: exit
+2021/12/27 13:45:25 [notice] 36#36: exit
+2021/12/27 13:45:25 [notice] 35#35: exit
+2021/12/27 13:45:25 [notice] 37#37: exit
+2021/12/27 13:45:25 [notice] 31#31: exit
+2021/12/27 13:45:25 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/12/27 13:45:25 [notice] 1#1: worker process 32 exited with code 0
+2021/12/27 13:45:25 [notice] 1#1: worker process 34 exited with code 0
+2021/12/27 13:45:25 [notice] 1#1: worker process 36 exited with code 0
+2021/12/27 13:45:25 [notice] 1#1: worker process 37 exited with code 0
+2021/12/27 13:45:25 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 13:45:25 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/12/27 13:45:25 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/27 13:45:25 [notice] 1#1: worker process 33 exited with code 0
+2021/12/27 13:45:25 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 13:45:25 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/12/27 13:45:25 [notice] 1#1: worker process 31 exited with code 0
+2021/12/27 13:45:25 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 13:45:25 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2021/12/27 13:45:25 [notice] 1#1: worker process 35 exited with code 0
+2021/12/27 13:45:25 [notice] 1#1: worker process 38 exited with code 0
+2021/12/27 13:45:25 [notice] 1#1: exit
+2021/12/27 13:45:39 [notice] 1#1: using the "epoll" event method
+2021/12/27 13:45:39 [notice] 1#1: nginx/1.21.4
+2021/12/27 13:45:39 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/12/27 13:45:39 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/12/27 13:45:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/27 13:45:39 [notice] 1#1: start worker processes
+2021/12/27 13:45:39 [notice] 1#1: start worker process 31
+2021/12/27 13:45:39 [notice] 1#1: start worker process 32
+2021/12/27 13:45:39 [notice] 1#1: start worker process 33
+2021/12/27 13:45:39 [notice] 1#1: start worker process 34
+2021/12/27 13:45:39 [notice] 1#1: start worker process 35
+2021/12/27 13:45:39 [notice] 1#1: start worker process 36
+2021/12/27 13:45:39 [notice] 1#1: start worker process 37
+2021/12/27 13:45:39 [notice] 1#1: start worker process 38
+2021/12/27 13:49:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/27 13:49:21 [notice] 31#31: gracefully shutting down
+2021/12/27 13:49:21 [notice] 32#32: gracefully shutting down
+2021/12/27 13:49:21 [notice] 34#34: gracefully shutting down
+2021/12/27 13:49:21 [notice] 33#33: gracefully shutting down
+2021/12/27 13:49:21 [notice] 35#35: gracefully shutting down
+2021/12/27 13:49:21 [notice] 37#37: gracefully shutting down
+2021/12/27 13:49:21 [notice] 36#36: gracefully shutting down
+2021/12/27 13:49:21 [notice] 38#38: gracefully shutting down
+2021/12/27 13:49:21 [notice] 31#31: exiting
+2021/12/27 13:49:21 [notice] 32#32: exiting
+2021/12/27 13:49:21 [notice] 34#34: exiting
+2021/12/27 13:49:21 [notice] 33#33: exiting
+2021/12/27 13:49:21 [notice] 35#35: exiting
+2021/12/27 13:49:21 [notice] 35#35: exit
+2021/12/27 13:49:21 [notice] 37#37: exiting
+2021/12/27 13:49:21 [notice] 36#36: exiting
+2021/12/27 13:49:21 [notice] 36#36: exit
+2021/12/27 13:49:21 [notice] 38#38: exiting
+2021/12/27 13:49:21 [notice] 38#38: exit
+2021/12/27 13:49:21 [notice] 31#31: exit
+2021/12/27 13:49:21 [notice] 32#32: exit
+2021/12/27 13:49:21 [notice] 34#34: exit
+2021/12/27 13:49:21 [notice] 33#33: exit
+2021/12/27 13:49:21 [notice] 37#37: exit
+2021/12/27 13:49:21 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2021/12/27 13:49:21 [notice] 1#1: worker process 36 exited with code 0
+2021/12/27 13:49:21 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 13:49:21 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/12/27 13:49:21 [notice] 1#1: worker process 37 exited with code 0
+2021/12/27 13:49:21 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 13:49:21 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2021/12/27 13:49:21 [notice] 1#1: worker process 31 exited with code 0
+2021/12/27 13:49:21 [notice] 1#1: worker process 32 exited with code 0
+2021/12/27 13:49:21 [notice] 1#1: worker process 33 exited with code 0
+2021/12/27 13:49:21 [notice] 1#1: worker process 34 exited with code 0
+2021/12/27 13:49:21 [notice] 1#1: worker process 38 exited with code 0
+2021/12/27 13:49:21 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 13:49:21 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/27 13:49:21 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/12/27 13:49:21 [notice] 1#1: worker process 35 exited with code 0
+2021/12/27 13:49:21 [notice] 1#1: exit
+2021/12/27 13:50:56 [notice] 1#1: using the "epoll" event method
+2021/12/27 13:50:56 [notice] 1#1: nginx/1.21.4
+2021/12/27 13:50:56 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/12/27 13:50:56 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/12/27 13:50:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/27 13:50:56 [notice] 1#1: start worker processes
+2021/12/27 13:50:56 [notice] 1#1: start worker process 31
+2021/12/27 13:50:56 [notice] 1#1: start worker process 32
+2021/12/27 13:50:56 [notice] 1#1: start worker process 33
+2021/12/27 13:50:56 [notice] 1#1: start worker process 34
+2021/12/27 13:50:56 [notice] 1#1: start worker process 35
+2021/12/27 13:50:56 [notice] 1#1: start worker process 36
+2021/12/27 13:50:56 [notice] 1#1: start worker process 37
+2021/12/27 13:50:56 [notice] 1#1: start worker process 38
+2021/12/27 13:52:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/27 13:52:11 [notice] 31#31: gracefully shutting down
+2021/12/27 13:52:11 [notice] 32#32: gracefully shutting down
+2021/12/27 13:52:11 [notice] 33#33: gracefully shutting down
+2021/12/27 13:52:11 [notice] 34#34: gracefully shutting down
+2021/12/27 13:52:11 [notice] 35#35: gracefully shutting down
+2021/12/27 13:52:11 [notice] 36#36: gracefully shutting down
+2021/12/27 13:52:11 [notice] 37#37: gracefully shutting down
+2021/12/27 13:52:11 [notice] 38#38: gracefully shutting down
+2021/12/27 13:52:11 [notice] 31#31: exiting
+2021/12/27 13:52:11 [notice] 32#32: exiting
+2021/12/27 13:52:11 [notice] 33#33: exiting
+2021/12/27 13:52:11 [notice] 34#34: exiting
+2021/12/27 13:52:11 [notice] 35#35: exiting
+2021/12/27 13:52:11 [notice] 36#36: exiting
+2021/12/27 13:52:11 [notice] 37#37: exiting
+2021/12/27 13:52:11 [notice] 38#38: exiting
+2021/12/27 13:52:11 [notice] 37#37: exit
+2021/12/27 13:52:11 [notice] 31#31: exit
+2021/12/27 13:52:11 [notice] 32#32: exit
+2021/12/27 13:52:11 [notice] 33#33: exit
+2021/12/27 13:52:11 [notice] 34#34: exit
+2021/12/27 13:52:11 [notice] 35#35: exit
+2021/12/27 13:52:11 [notice] 36#36: exit
+2021/12/27 13:52:11 [notice] 38#38: exit
+2021/12/27 13:52:11 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/12/27 13:52:11 [notice] 1#1: worker process 31 exited with code 0
+2021/12/27 13:52:11 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 13:52:11 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2021/12/27 13:52:11 [notice] 1#1: worker process 38 exited with code 0
+2021/12/27 13:52:11 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 13:52:11 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/12/27 13:52:11 [notice] 1#1: worker process 32 exited with code 0
+2021/12/27 13:52:11 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 13:52:11 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/27 13:52:11 [notice] 1#1: worker process 34 exited with code 0
+2021/12/27 13:52:11 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 13:52:11 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/27 13:52:11 [notice] 1#1: worker process 33 exited with code 0
+2021/12/27 13:52:11 [notice] 1#1: worker process 36 exited with code 0
+2021/12/27 13:52:11 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 13:52:11 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/12/27 13:52:11 [notice] 1#1: worker process 35 exited with code 0
+2021/12/27 13:52:11 [notice] 1#1: worker process 37 exited with code 0
+2021/12/27 13:52:11 [notice] 1#1: exit
+2021/12/27 14:05:08 [notice] 1#1: using the "epoll" event method
+2021/12/27 14:05:08 [notice] 1#1: nginx/1.21.4
+2021/12/27 14:05:08 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/12/27 14:05:08 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/12/27 14:05:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/27 14:05:08 [notice] 1#1: start worker processes
+2021/12/27 14:05:08 [notice] 1#1: start worker process 32
+2021/12/27 14:05:08 [notice] 1#1: start worker process 33
+2021/12/27 14:05:08 [notice] 1#1: start worker process 34
+2021/12/27 14:05:08 [notice] 1#1: start worker process 35
+2021/12/27 14:05:08 [notice] 1#1: start worker process 36
+2021/12/27 14:05:08 [notice] 1#1: start worker process 37
+2021/12/27 14:05:08 [notice] 1#1: start worker process 38
+2021/12/27 14:05:08 [notice] 1#1: start worker process 39
+2021/12/27 14:08:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/27 14:08:53 [notice] 32#32: gracefully shutting down
+2021/12/27 14:08:53 [notice] 35#35: gracefully shutting down
+2021/12/27 14:08:53 [notice] 37#37: gracefully shutting down
+2021/12/27 14:08:53 [notice] 36#36: gracefully shutting down
+2021/12/27 14:08:53 [notice] 34#34: gracefully shutting down
+2021/12/27 14:08:53 [notice] 33#33: gracefully shutting down
+2021/12/27 14:08:53 [notice] 39#39: gracefully shutting down
+2021/12/27 14:08:53 [notice] 38#38: gracefully shutting down
+2021/12/27 14:08:53 [notice] 32#32: exiting
+2021/12/27 14:08:53 [notice] 35#35: exiting
+2021/12/27 14:08:53 [notice] 32#32: exit
+2021/12/27 14:08:53 [notice] 37#37: exiting
+2021/12/27 14:08:53 [notice] 36#36: exiting
+2021/12/27 14:08:53 [notice] 34#34: exiting
+2021/12/27 14:08:53 [notice] 39#39: exiting
+2021/12/27 14:08:53 [notice] 33#33: exiting
+2021/12/27 14:08:53 [notice] 38#38: exiting
+2021/12/27 14:08:53 [notice] 33#33: exit
+2021/12/27 14:08:53 [notice] 35#35: exit
+2021/12/27 14:08:53 [notice] 37#37: exit
+2021/12/27 14:08:53 [notice] 34#34: exit
+2021/12/27 14:08:53 [notice] 36#36: exit
+2021/12/27 14:08:53 [notice] 39#39: exit
+2021/12/27 14:08:53 [notice] 38#38: exit
+2021/12/27 14:08:53 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/12/27 14:08:53 [notice] 1#1: worker process 35 exited with code 0
+2021/12/27 14:08:53 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:08:53 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/27 14:08:53 [notice] 1#1: worker process 34 exited with code 0
+2021/12/27 14:08:53 [notice] 1#1: worker process 38 exited with code 0
+2021/12/27 14:08:53 [notice] 1#1: worker process 39 exited with code 0
+2021/12/27 14:08:53 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:08:53 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/12/27 14:08:53 [notice] 1#1: worker process 32 exited with code 0
+2021/12/27 14:08:53 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:08:53 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/12/27 14:08:53 [notice] 1#1: worker process 37 exited with code 0
+2021/12/27 14:08:53 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:08:53 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/27 14:08:53 [notice] 1#1: worker process 33 exited with code 0
+2021/12/27 14:08:53 [notice] 1#1: worker process 36 exited with code 0
+2021/12/27 14:08:53 [notice] 1#1: exit
+2021/12/27 14:09:48 [notice] 1#1: using the "epoll" event method
+2021/12/27 14:09:48 [notice] 1#1: nginx/1.21.4
+2021/12/27 14:09:48 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/12/27 14:09:48 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/12/27 14:09:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/27 14:09:48 [notice] 1#1: start worker processes
+2021/12/27 14:09:48 [notice] 1#1: start worker process 32
+2021/12/27 14:09:48 [notice] 1#1: start worker process 33
+2021/12/27 14:09:48 [notice] 1#1: start worker process 34
+2021/12/27 14:09:48 [notice] 1#1: start worker process 35
+2021/12/27 14:09:48 [notice] 1#1: start worker process 36
+2021/12/27 14:09:48 [notice] 1#1: start worker process 37
+2021/12/27 14:09:48 [notice] 1#1: start worker process 38
+2021/12/27 14:09:48 [notice] 1#1: start worker process 39
+2021/12/27 14:10:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/27 14:10:14 [notice] 33#33: gracefully shutting down
+2021/12/27 14:10:14 [notice] 34#34: gracefully shutting down
+2021/12/27 14:10:14 [notice] 32#32: gracefully shutting down
+2021/12/27 14:10:14 [notice] 35#35: gracefully shutting down
+2021/12/27 14:10:14 [notice] 37#37: gracefully shutting down
+2021/12/27 14:10:14 [notice] 36#36: gracefully shutting down
+2021/12/27 14:10:14 [notice] 38#38: gracefully shutting down
+2021/12/27 14:10:14 [notice] 39#39: gracefully shutting down
+2021/12/27 14:10:14 [notice] 33#33: exiting
+2021/12/27 14:10:14 [notice] 34#34: exiting
+2021/12/27 14:10:14 [notice] 32#32: exiting
+2021/12/27 14:10:14 [notice] 34#34: exit
+2021/12/27 14:10:14 [notice] 35#35: exiting
+2021/12/27 14:10:14 [notice] 37#37: exiting
+2021/12/27 14:10:14 [notice] 36#36: exiting
+2021/12/27 14:10:14 [notice] 38#38: exiting
+2021/12/27 14:10:14 [notice] 39#39: exiting
+2021/12/27 14:10:14 [notice] 33#33: exit
+2021/12/27 14:10:14 [notice] 32#32: exit
+2021/12/27 14:10:14 [notice] 35#35: exit
+2021/12/27 14:10:14 [notice] 37#37: exit
+2021/12/27 14:10:14 [notice] 36#36: exit
+2021/12/27 14:10:14 [notice] 38#38: exit
+2021/12/27 14:10:14 [notice] 39#39: exit
+2021/12/27 14:10:14 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/12/27 14:10:14 [notice] 1#1: worker process 32 exited with code 0
+2021/12/27 14:10:14 [notice] 1#1: worker process 36 exited with code 0
+2021/12/27 14:10:14 [notice] 1#1: worker process 37 exited with code 0
+2021/12/27 14:10:14 [notice] 1#1: worker process 39 exited with code 0
+2021/12/27 14:10:14 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:10:14 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2021/12/27 14:10:14 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/27 14:10:14 [notice] 1#1: worker process 34 exited with code 0
+2021/12/27 14:10:14 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:10:14 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/27 14:10:14 [notice] 1#1: worker process 33 exited with code 0
+2021/12/27 14:10:14 [notice] 1#1: worker process 35 exited with code 0
+2021/12/27 14:10:14 [notice] 1#1: worker process 38 exited with code 0
+2021/12/27 14:10:14 [notice] 1#1: exit
+2021/12/27 14:13:30 [notice] 1#1: using the "epoll" event method
+2021/12/27 14:13:30 [notice] 1#1: nginx/1.21.4
+2021/12/27 14:13:30 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/12/27 14:13:30 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/12/27 14:13:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/27 14:13:30 [notice] 1#1: start worker processes
+2021/12/27 14:13:30 [notice] 1#1: start worker process 31
+2021/12/27 14:13:30 [notice] 1#1: start worker process 32
+2021/12/27 14:13:30 [notice] 1#1: start worker process 33
+2021/12/27 14:13:30 [notice] 1#1: start worker process 34
+2021/12/27 14:13:30 [notice] 1#1: start worker process 35
+2021/12/27 14:13:30 [notice] 1#1: start worker process 36
+2021/12/27 14:13:30 [notice] 1#1: start worker process 37
+2021/12/27 14:13:30 [notice] 1#1: start worker process 38
+2021/12/27 14:17:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/27 14:17:07 [notice] 31#31: gracefully shutting down
+2021/12/27 14:17:07 [notice] 32#32: gracefully shutting down
+2021/12/27 14:17:07 [notice] 33#33: gracefully shutting down
+2021/12/27 14:17:07 [notice] 34#34: gracefully shutting down
+2021/12/27 14:17:07 [notice] 35#35: gracefully shutting down
+2021/12/27 14:17:07 [notice] 37#37: gracefully shutting down
+2021/12/27 14:17:07 [notice] 36#36: gracefully shutting down
+2021/12/27 14:17:07 [notice] 38#38: gracefully shutting down
+2021/12/27 14:17:07 [notice] 31#31: exiting
+2021/12/27 14:17:07 [notice] 32#32: exiting
+2021/12/27 14:17:07 [notice] 33#33: exiting
+2021/12/27 14:17:07 [notice] 32#32: exit
+2021/12/27 14:17:07 [notice] 34#34: exiting
+2021/12/27 14:17:07 [notice] 35#35: exiting
+2021/12/27 14:17:07 [notice] 37#37: exiting
+2021/12/27 14:17:07 [notice] 36#36: exiting
+2021/12/27 14:17:07 [notice] 38#38: exiting
+2021/12/27 14:17:07 [notice] 31#31: exit
+2021/12/27 14:17:07 [notice] 33#33: exit
+2021/12/27 14:17:07 [notice] 34#34: exit
+2021/12/27 14:17:07 [notice] 35#35: exit
+2021/12/27 14:17:07 [notice] 37#37: exit
+2021/12/27 14:17:07 [notice] 36#36: exit
+2021/12/27 14:17:07 [notice] 38#38: exit
+2021/12/27 14:17:07 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/12/27 14:17:07 [notice] 1#1: worker process 32 exited with code 0
+2021/12/27 14:17:07 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:17:07 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/12/27 14:17:07 [notice] 1#1: worker process 31 exited with code 0
+2021/12/27 14:17:07 [notice] 1#1: worker process 33 exited with code 0
+2021/12/27 14:17:07 [notice] 1#1: worker process 36 exited with code 0
+2021/12/27 14:17:07 [notice] 1#1: worker process 37 exited with code 0
+2021/12/27 14:17:07 [notice] 1#1: worker process 38 exited with code 0
+2021/12/27 14:17:07 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:17:07 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/12/27 14:17:07 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/27 14:17:07 [notice] 1#1: worker process 34 exited with code 0
+2021/12/27 14:17:07 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:17:07 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/12/27 14:17:07 [notice] 1#1: worker process 35 exited with code 0
+2021/12/27 14:17:07 [notice] 1#1: exit
+2021/12/27 14:18:23 [notice] 1#1: using the "epoll" event method
+2021/12/27 14:18:23 [notice] 1#1: nginx/1.21.4
+2021/12/27 14:18:23 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/12/27 14:18:23 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/12/27 14:18:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/27 14:18:23 [notice] 1#1: start worker processes
+2021/12/27 14:18:23 [notice] 1#1: start worker process 32
+2021/12/27 14:18:23 [notice] 1#1: start worker process 33
+2021/12/27 14:18:23 [notice] 1#1: start worker process 34
+2021/12/27 14:18:23 [notice] 1#1: start worker process 35
+2021/12/27 14:18:23 [notice] 1#1: start worker process 36
+2021/12/27 14:18:23 [notice] 1#1: start worker process 37
+2021/12/27 14:18:23 [notice] 1#1: start worker process 38
+2021/12/27 14:18:23 [notice] 1#1: start worker process 39
+2021/12/27 14:18:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/27 14:18:44 [notice] 33#33: gracefully shutting down
+2021/12/27 14:18:44 [notice] 32#32: gracefully shutting down
+2021/12/27 14:18:44 [notice] 34#34: gracefully shutting down
+2021/12/27 14:18:44 [notice] 35#35: gracefully shutting down
+2021/12/27 14:18:44 [notice] 36#36: gracefully shutting down
+2021/12/27 14:18:44 [notice] 37#37: gracefully shutting down
+2021/12/27 14:18:44 [notice] 38#38: gracefully shutting down
+2021/12/27 14:18:44 [notice] 39#39: gracefully shutting down
+2021/12/27 14:18:44 [notice] 33#33: exiting
+2021/12/27 14:18:44 [notice] 32#32: exiting
+2021/12/27 14:18:44 [notice] 33#33: exit
+2021/12/27 14:18:44 [notice] 34#34: exiting
+2021/12/27 14:18:44 [notice] 35#35: exiting
+2021/12/27 14:18:44 [notice] 36#36: exiting
+2021/12/27 14:18:44 [notice] 37#37: exiting
+2021/12/27 14:18:44 [notice] 38#38: exiting
+2021/12/27 14:18:44 [notice] 39#39: exiting
+2021/12/27 14:18:44 [notice] 32#32: exit
+2021/12/27 14:18:44 [notice] 34#34: exit
+2021/12/27 14:18:44 [notice] 35#35: exit
+2021/12/27 14:18:44 [notice] 36#36: exit
+2021/12/27 14:18:44 [notice] 37#37: exit
+2021/12/27 14:18:44 [notice] 38#38: exit
+2021/12/27 14:18:44 [notice] 39#39: exit
+2021/12/27 14:18:45 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/12/27 14:18:45 [notice] 1#1: worker process 32 exited with code 0
+2021/12/27 14:18:45 [notice] 1#1: worker process 35 exited with code 0
+2021/12/27 14:18:45 [notice] 1#1: worker process 38 exited with code 0
+2021/12/27 14:18:45 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:18:45 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2021/12/27 14:18:45 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2021/12/27 14:18:45 [notice] 1#1: worker process 39 exited with code 0
+2021/12/27 14:18:45 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:18:45 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/27 14:18:45 [notice] 1#1: worker process 33 exited with code 0
+2021/12/27 14:18:45 [notice] 1#1: worker process 36 exited with code 0
+2021/12/27 14:18:45 [notice] 1#1: worker process 37 exited with code 0
+2021/12/27 14:18:45 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:18:45 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/27 14:18:45 [notice] 1#1: worker process 34 exited with code 0
+2021/12/27 14:18:45 [notice] 1#1: exit
+2021/12/27 14:29:36 [notice] 1#1: using the "epoll" event method
+2021/12/27 14:29:36 [notice] 1#1: nginx/1.21.4
+2021/12/27 14:29:36 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/12/27 14:29:36 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/12/27 14:29:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/27 14:29:36 [notice] 1#1: start worker processes
+2021/12/27 14:29:36 [notice] 1#1: start worker process 32
+2021/12/27 14:29:36 [notice] 1#1: start worker process 33
+2021/12/27 14:29:36 [notice] 1#1: start worker process 34
+2021/12/27 14:29:36 [notice] 1#1: start worker process 35
+2021/12/27 14:29:36 [notice] 1#1: start worker process 36
+2021/12/27 14:29:36 [notice] 1#1: start worker process 37
+2021/12/27 14:29:36 [notice] 1#1: start worker process 38
+2021/12/27 14:29:36 [notice] 1#1: start worker process 39
+2021/12/27 14:36:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/27 14:36:47 [notice] 34#34: gracefully shutting down
+2021/12/27 14:36:47 [notice] 35#35: gracefully shutting down
+2021/12/27 14:36:47 [notice] 37#37: gracefully shutting down
+2021/12/27 14:36:47 [notice] 39#39: gracefully shutting down
+2021/12/27 14:36:47 [notice] 32#32: gracefully shutting down
+2021/12/27 14:36:47 [notice] 38#38: gracefully shutting down
+2021/12/27 14:36:47 [notice] 33#33: gracefully shutting down
+2021/12/27 14:36:47 [notice] 34#34: exiting
+2021/12/27 14:36:47 [notice] 36#36: gracefully shutting down
+2021/12/27 14:36:47 [notice] 35#35: exiting
+2021/12/27 14:36:47 [notice] 36#36: exiting
+2021/12/27 14:36:47 [notice] 37#37: exiting
+2021/12/27 14:36:47 [notice] 32#32: exiting
+2021/12/27 14:36:47 [notice] 39#39: exiting
+2021/12/27 14:36:47 [notice] 38#38: exiting
+2021/12/27 14:36:47 [notice] 33#33: exiting
+2021/12/27 14:36:47 [notice] 34#34: exit
+2021/12/27 14:36:47 [notice] 35#35: exit
+2021/12/27 14:36:47 [notice] 36#36: exit
+2021/12/27 14:36:47 [notice] 37#37: exit
+2021/12/27 14:36:47 [notice] 32#32: exit
+2021/12/27 14:36:47 [notice] 39#39: exit
+2021/12/27 14:36:47 [notice] 38#38: exit
+2021/12/27 14:36:47 [notice] 33#33: exit
+2021/12/27 14:36:47 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/12/27 14:36:47 [notice] 1#1: worker process 32 exited with code 0
+2021/12/27 14:36:47 [notice] 1#1: worker process 34 exited with code 0
+2021/12/27 14:36:47 [notice] 1#1: worker process 35 exited with code 0
+2021/12/27 14:36:47 [notice] 1#1: worker process 37 exited with code 0
+2021/12/27 14:36:47 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:36:47 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2021/12/27 14:36:47 [notice] 1#1: worker process 36 exited with code 0
+2021/12/27 14:36:47 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:36:47 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2021/12/27 14:36:47 [notice] 1#1: worker process 38 exited with code 0
+2021/12/27 14:36:47 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:36:47 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/27 14:36:47 [notice] 1#1: worker process 33 exited with code 0
+2021/12/27 14:36:47 [notice] 1#1: worker process 39 exited with code 0
+2021/12/27 14:36:47 [notice] 1#1: exit
+2021/12/27 14:44:10 [notice] 1#1: using the "epoll" event method
+2021/12/27 14:44:10 [notice] 1#1: nginx/1.21.4
+2021/12/27 14:44:10 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/12/27 14:44:10 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/12/27 14:44:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/27 14:44:10 [notice] 1#1: start worker processes
+2021/12/27 14:44:10 [notice] 1#1: start worker process 32
+2021/12/27 14:44:10 [notice] 1#1: start worker process 33
+2021/12/27 14:44:10 [notice] 1#1: start worker process 34
+2021/12/27 14:44:10 [notice] 1#1: start worker process 35
+2021/12/27 14:44:10 [notice] 1#1: start worker process 36
+2021/12/27 14:44:10 [notice] 1#1: start worker process 37
+2021/12/27 14:44:10 [notice] 1#1: start worker process 38
+2021/12/27 14:44:10 [notice] 1#1: start worker process 39
+2021/12/27 14:48:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/27 14:48:52 [notice] 35#35: gracefully shutting down
+2021/12/27 14:48:52 [notice] 32#32: gracefully shutting down
+2021/12/27 14:48:52 [notice] 34#34: gracefully shutting down
+2021/12/27 14:48:52 [notice] 36#36: gracefully shutting down
+2021/12/27 14:48:52 [notice] 38#38: gracefully shutting down
+2021/12/27 14:48:52 [notice] 33#33: gracefully shutting down
+2021/12/27 14:48:52 [notice] 39#39: gracefully shutting down
+2021/12/27 14:48:52 [notice] 37#37: gracefully shutting down
+2021/12/27 14:48:52 [notice] 35#35: exiting
+2021/12/27 14:48:52 [notice] 32#32: exiting
+2021/12/27 14:48:52 [notice] 34#34: exiting
+2021/12/27 14:48:52 [notice] 32#32: exit
+2021/12/27 14:48:52 [notice] 38#38: exiting
+2021/12/27 14:48:52 [notice] 36#36: exiting
+2021/12/27 14:48:52 [notice] 33#33: exiting
+2021/12/27 14:48:52 [notice] 39#39: exiting
+2021/12/27 14:48:52 [notice] 37#37: exiting
+2021/12/27 14:48:52 [notice] 35#35: exit
+2021/12/27 14:48:52 [notice] 34#34: exit
+2021/12/27 14:48:52 [notice] 38#38: exit
+2021/12/27 14:48:52 [notice] 36#36: exit
+2021/12/27 14:48:52 [notice] 33#33: exit
+2021/12/27 14:48:52 [notice] 39#39: exit
+2021/12/27 14:48:52 [notice] 37#37: exit
+2021/12/27 14:48:52 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2021/12/27 14:48:52 [notice] 1#1: worker process 32 exited with code 0
+2021/12/27 14:48:52 [notice] 1#1: worker process 33 exited with code 0
+2021/12/27 14:48:52 [notice] 1#1: worker process 35 exited with code 0
+2021/12/27 14:48:52 [notice] 1#1: worker process 36 exited with code 0
+2021/12/27 14:48:52 [notice] 1#1: worker process 37 exited with code 0
+2021/12/27 14:48:52 [notice] 1#1: worker process 38 exited with code 0
+2021/12/27 14:48:52 [notice] 1#1: worker process 39 exited with code 0
+2021/12/27 14:48:52 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:48:52 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/12/27 14:48:52 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/27 14:48:52 [notice] 1#1: worker process 34 exited with code 0
+2021/12/27 14:48:52 [notice] 1#1: exit
+2021/12/27 14:49:22 [notice] 1#1: using the "epoll" event method
+2021/12/27 14:49:22 [notice] 1#1: nginx/1.21.4
+2021/12/27 14:49:22 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/12/27 14:49:22 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/12/27 14:49:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/27 14:49:22 [notice] 1#1: start worker processes
+2021/12/27 14:49:22 [notice] 1#1: start worker process 31
+2021/12/27 14:49:22 [notice] 1#1: start worker process 32
+2021/12/27 14:49:22 [notice] 1#1: start worker process 33
+2021/12/27 14:49:22 [notice] 1#1: start worker process 34
+2021/12/27 14:49:22 [notice] 1#1: start worker process 35
+2021/12/27 14:49:22 [notice] 1#1: start worker process 36
+2021/12/27 14:49:22 [notice] 1#1: start worker process 37
+2021/12/27 14:49:22 [notice] 1#1: start worker process 38
+2021/12/27 14:49:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/27 14:49:23 [notice] 32#32: gracefully shutting down
+2021/12/27 14:49:23 [notice] 33#33: gracefully shutting down
+2021/12/27 14:49:23 [notice] 38#38: gracefully shutting down
+2021/12/27 14:49:23 [notice] 31#31: gracefully shutting down
+2021/12/27 14:49:23 [notice] 34#34: gracefully shutting down
+2021/12/27 14:49:23 [notice] 35#35: gracefully shutting down
+2021/12/27 14:49:23 [notice] 36#36: gracefully shutting down
+2021/12/27 14:49:23 [notice] 37#37: gracefully shutting down
+2021/12/27 14:49:23 [notice] 32#32: exiting
+2021/12/27 14:49:23 [notice] 33#33: exiting
+2021/12/27 14:49:23 [notice] 38#38: exiting
+2021/12/27 14:49:23 [notice] 31#31: exiting
+2021/12/27 14:49:23 [notice] 34#34: exiting
+2021/12/27 14:49:23 [notice] 35#35: exiting
+2021/12/27 14:49:23 [notice] 36#36: exiting
+2021/12/27 14:49:23 [notice] 37#37: exiting
+2021/12/27 14:49:23 [notice] 32#32: exit
+2021/12/27 14:49:23 [notice] 33#33: exit
+2021/12/27 14:49:23 [notice] 31#31: exit
+2021/12/27 14:49:23 [notice] 38#38: exit
+2021/12/27 14:49:23 [notice] 34#34: exit
+2021/12/27 14:49:23 [notice] 35#35: exit
+2021/12/27 14:49:23 [notice] 36#36: exit
+2021/12/27 14:49:23 [notice] 37#37: exit
+2021/12/27 14:49:23 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/27 14:49:23 [notice] 1#1: worker process 34 exited with code 0
+2021/12/27 14:49:23 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:49:23 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/12/27 14:49:23 [notice] 1#1: worker process 31 exited with code 0
+2021/12/27 14:49:23 [notice] 1#1: worker process 32 exited with code 0
+2021/12/27 14:49:23 [notice] 1#1: worker process 33 exited with code 0
+2021/12/27 14:49:23 [notice] 1#1: worker process 35 exited with code 0
+2021/12/27 14:49:23 [notice] 1#1: worker process 36 exited with code 0
+2021/12/27 14:49:23 [notice] 1#1: worker process 37 exited with code 0
+2021/12/27 14:49:23 [notice] 1#1: worker process 38 exited with code 0
+2021/12/27 14:49:23 [notice] 1#1: exit
+2021/12/27 14:49:43 [notice] 1#1: using the "epoll" event method
+2021/12/27 14:49:43 [notice] 1#1: nginx/1.21.4
+2021/12/27 14:49:43 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/12/27 14:49:43 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/12/27 14:49:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/27 14:49:43 [notice] 1#1: start worker processes
+2021/12/27 14:49:43 [notice] 1#1: start worker process 32
+2021/12/27 14:49:43 [notice] 1#1: start worker process 33
+2021/12/27 14:49:43 [notice] 1#1: start worker process 34
+2021/12/27 14:49:43 [notice] 1#1: start worker process 35
+2021/12/27 14:49:43 [notice] 1#1: start worker process 36
+2021/12/27 14:49:43 [notice] 1#1: start worker process 37
+2021/12/27 14:49:43 [notice] 1#1: start worker process 38
+2021/12/27 14:49:43 [notice] 1#1: start worker process 39
+2021/12/27 14:49:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/27 14:49:44 [notice] 32#32: gracefully shutting down
+2021/12/27 14:49:44 [notice] 33#33: gracefully shutting down
+2021/12/27 14:49:44 [notice] 34#34: gracefully shutting down
+2021/12/27 14:49:44 [notice] 34#34: exiting
+2021/12/27 14:49:44 [notice] 35#35: gracefully shutting down
+2021/12/27 14:49:44 [notice] 36#36: gracefully shutting down
+2021/12/27 14:49:44 [notice] 37#37: gracefully shutting down
+2021/12/27 14:49:44 [notice] 38#38: gracefully shutting down
+2021/12/27 14:49:44 [notice] 39#39: gracefully shutting down
+2021/12/27 14:49:44 [notice] 32#32: exiting
+2021/12/27 14:49:44 [notice] 33#33: exiting
+2021/12/27 14:49:44 [notice] 32#32: exit
+2021/12/27 14:49:44 [notice] 34#34: exit
+2021/12/27 14:49:44 [notice] 35#35: exiting
+2021/12/27 14:49:44 [notice] 36#36: exiting
+2021/12/27 14:49:44 [notice] 37#37: exiting
+2021/12/27 14:49:44 [notice] 38#38: exiting
+2021/12/27 14:49:44 [notice] 37#37: exit
+2021/12/27 14:49:44 [notice] 39#39: exiting
+2021/12/27 14:49:44 [notice] 33#33: exit
+2021/12/27 14:49:44 [notice] 35#35: exit
+2021/12/27 14:49:44 [notice] 36#36: exit
+2021/12/27 14:49:44 [notice] 38#38: exit
+2021/12/27 14:49:44 [notice] 39#39: exit
+2021/12/27 14:49:45 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/12/27 14:49:45 [notice] 1#1: worker process 35 exited with code 0
+2021/12/27 14:49:45 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:49:45 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2021/12/27 14:49:45 [notice] 1#1: worker process 33 exited with code 0
+2021/12/27 14:49:45 [notice] 1#1: worker process 38 exited with code 0
+2021/12/27 14:49:45 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:49:45 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/27 14:49:45 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/27 14:49:45 [notice] 1#1: worker process 34 exited with code 0
+2021/12/27 14:49:45 [notice] 1#1: worker process 39 exited with code 0
+2021/12/27 14:49:45 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:49:45 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/12/27 14:49:45 [notice] 1#1: worker process 36 exited with code 0
+2021/12/27 14:49:45 [notice] 1#1: worker process 37 exited with code 0
+2021/12/27 14:49:45 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 14:49:45 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2021/12/27 14:49:45 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/12/27 14:49:45 [notice] 1#1: worker process 32 exited with code 0
+2021/12/27 14:49:45 [notice] 1#1: exit
+2021/12/27 14:57:02 [notice] 1#1: using the "epoll" event method
+2021/12/27 14:57:02 [notice] 1#1: nginx/1.21.4
+2021/12/27 14:57:02 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/12/27 14:57:02 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/12/27 14:57:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/27 14:57:02 [notice] 1#1: start worker processes
+2021/12/27 14:57:02 [notice] 1#1: start worker process 31
+2021/12/27 14:57:02 [notice] 1#1: start worker process 32
+2021/12/27 14:57:02 [notice] 1#1: start worker process 33
+2021/12/27 14:57:02 [notice] 1#1: start worker process 34
+2021/12/27 14:57:02 [notice] 1#1: start worker process 35
+2021/12/27 14:57:02 [notice] 1#1: start worker process 36
+2021/12/27 14:57:02 [notice] 1#1: start worker process 37
+2021/12/27 14:57:02 [notice] 1#1: start worker process 38
+2021/12/27 15:00:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/27 15:00:01 [notice] 31#31: gracefully shutting down
+2021/12/27 15:00:01 [notice] 32#32: gracefully shutting down
+2021/12/27 15:00:01 [notice] 33#33: gracefully shutting down
+2021/12/27 15:00:01 [notice] 35#35: gracefully shutting down
+2021/12/27 15:00:01 [notice] 36#36: gracefully shutting down
+2021/12/27 15:00:01 [notice] 37#37: gracefully shutting down
+2021/12/27 15:00:01 [notice] 34#34: gracefully shutting down
+2021/12/27 15:00:01 [notice] 38#38: gracefully shutting down
+2021/12/27 15:00:01 [notice] 31#31: exiting
+2021/12/27 15:00:01 [notice] 32#32: exiting
+2021/12/27 15:00:01 [notice] 33#33: exiting
+2021/12/27 15:00:01 [notice] 35#35: exiting
+2021/12/27 15:00:01 [notice] 36#36: exiting
+2021/12/27 15:00:01 [notice] 35#35: exit
+2021/12/27 15:00:01 [notice] 37#37: exiting
+2021/12/27 15:00:01 [notice] 34#34: exiting
+2021/12/27 15:00:01 [notice] 38#38: exiting
+2021/12/27 15:00:01 [notice] 31#31: exit
+2021/12/27 15:00:01 [notice] 32#32: exit
+2021/12/27 15:00:01 [notice] 33#33: exit
+2021/12/27 15:00:01 [notice] 36#36: exit
+2021/12/27 15:00:01 [notice] 37#37: exit
+2021/12/27 15:00:01 [notice] 34#34: exit
+2021/12/27 15:00:01 [notice] 38#38: exit
+2021/12/27 15:00:01 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/12/27 15:00:01 [notice] 1#1: worker process 31 exited with code 0
+2021/12/27 15:00:01 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 15:00:01 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/12/27 15:00:01 [notice] 1#1: worker process 33 exited with code 0
+2021/12/27 15:00:01 [notice] 1#1: worker process 35 exited with code 0
+2021/12/27 15:00:01 [notice] 1#1: worker process 36 exited with code 0
+2021/12/27 15:00:01 [notice] 1#1: worker process 37 exited with code 0
+2021/12/27 15:00:01 [notice] 1#1: worker process 38 exited with code 0
+2021/12/27 15:00:01 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 15:00:01 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/12/27 15:00:01 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/27 15:00:01 [notice] 1#1: worker process 32 exited with code 0
+2021/12/27 15:00:01 [notice] 1#1: worker process 34 exited with code 0
+2021/12/27 15:00:01 [notice] 1#1: exit
+2021/12/27 15:00:58 [notice] 1#1: using the "epoll" event method
+2021/12/27 15:00:58 [notice] 1#1: nginx/1.21.4
+2021/12/27 15:00:58 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/12/27 15:00:58 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/12/27 15:00:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/27 15:00:58 [notice] 1#1: start worker processes
+2021/12/27 15:00:58 [notice] 1#1: start worker process 32
+2021/12/27 15:00:58 [notice] 1#1: start worker process 33
+2021/12/27 15:00:58 [notice] 1#1: start worker process 34
+2021/12/27 15:00:58 [notice] 1#1: start worker process 35
+2021/12/27 15:00:58 [notice] 1#1: start worker process 36
+2021/12/27 15:00:58 [notice] 1#1: start worker process 37
+2021/12/27 15:00:58 [notice] 1#1: start worker process 38
+2021/12/27 15:00:58 [notice] 1#1: start worker process 39
+2021/12/27 15:08:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/27 15:08:25 [notice] 32#32: gracefully shutting down
+2021/12/27 15:08:25 [notice] 37#37: gracefully shutting down
+2021/12/27 15:08:25 [notice] 34#34: gracefully shutting down
+2021/12/27 15:08:25 [notice] 36#36: gracefully shutting down
+2021/12/27 15:08:25 [notice] 35#35: gracefully shutting down
+2021/12/27 15:08:25 [notice] 38#38: gracefully shutting down
+2021/12/27 15:08:25 [notice] 33#33: gracefully shutting down
+2021/12/27 15:08:25 [notice] 39#39: gracefully shutting down
+2021/12/27 15:08:25 [notice] 33#33: exiting
+2021/12/27 15:08:25 [notice] 32#32: exiting
+2021/12/27 15:08:25 [notice] 37#37: exiting
+2021/12/27 15:08:25 [notice] 33#33: exit
+2021/12/27 15:08:25 [notice] 34#34: exiting
+2021/12/27 15:08:25 [notice] 36#36: exiting
+2021/12/27 15:08:25 [notice] 35#35: exiting
+2021/12/27 15:08:25 [notice] 38#38: exiting
+2021/12/27 15:08:25 [notice] 39#39: exiting
+2021/12/27 15:08:25 [notice] 32#32: exit
+2021/12/27 15:08:25 [notice] 37#37: exit
+2021/12/27 15:08:25 [notice] 34#34: exit
+2021/12/27 15:08:25 [notice] 36#36: exit
+2021/12/27 15:08:25 [notice] 35#35: exit
+2021/12/27 15:08:25 [notice] 38#38: exit
+2021/12/27 15:08:25 [notice] 39#39: exit
+2021/12/27 15:08:25 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/12/27 15:08:25 [notice] 1#1: worker process 37 exited with code 0
+2021/12/27 15:08:25 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 15:08:25 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/27 15:08:25 [notice] 1#1: worker process 34 exited with code 0
+2021/12/27 15:08:25 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 15:08:25 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2021/12/27 15:08:25 [notice] 1#1: worker process 36 exited with code 0
+2021/12/27 15:08:25 [notice] 1#1: worker process 38 exited with code 0
+2021/12/27 15:08:25 [notice] 1#1: worker process 39 exited with code 0
+2021/12/27 15:08:25 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 15:08:25 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2021/12/27 15:08:25 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/12/27 15:08:25 [notice] 1#1: worker process 32 exited with code 0
+2021/12/27 15:08:25 [notice] 1#1: worker process 33 exited with code 0
+2021/12/27 15:08:25 [notice] 1#1: worker process 35 exited with code 0
+2021/12/27 15:08:25 [notice] 1#1: exit
+2021/12/27 15:13:56 [notice] 1#1: using the "epoll" event method
+2021/12/27 15:13:56 [notice] 1#1: nginx/1.21.4
+2021/12/27 15:13:56 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/12/27 15:13:56 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/12/27 15:13:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/27 15:13:56 [notice] 1#1: start worker processes
+2021/12/27 15:13:56 [notice] 1#1: start worker process 32
+2021/12/27 15:13:56 [notice] 1#1: start worker process 33
+2021/12/27 15:13:56 [notice] 1#1: start worker process 34
+2021/12/27 15:13:56 [notice] 1#1: start worker process 35
+2021/12/27 15:13:56 [notice] 1#1: start worker process 36
+2021/12/27 15:13:56 [notice] 1#1: start worker process 37
+2021/12/27 15:13:56 [notice] 1#1: start worker process 38
+2021/12/27 15:13:56 [notice] 1#1: start worker process 39
+2021/12/27 15:15:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/27 15:15:39 [notice] 32#32: gracefully shutting down
+2021/12/27 15:15:39 [notice] 33#33: gracefully shutting down
+2021/12/27 15:15:39 [notice] 37#37: gracefully shutting down
+2021/12/27 15:15:39 [notice] 35#35: gracefully shutting down
+2021/12/27 15:15:39 [notice] 38#38: gracefully shutting down
+2021/12/27 15:15:39 [notice] 34#34: gracefully shutting down
+2021/12/27 15:15:39 [notice] 39#39: gracefully shutting down
+2021/12/27 15:15:39 [notice] 36#36: gracefully shutting down
+2021/12/27 15:15:39 [notice] 32#32: exiting
+2021/12/27 15:15:39 [notice] 33#33: exiting
+2021/12/27 15:15:39 [notice] 37#37: exiting
+2021/12/27 15:15:39 [notice] 35#35: exiting
+2021/12/27 15:15:39 [notice] 38#38: exiting
+2021/12/27 15:15:39 [notice] 34#34: exiting
+2021/12/27 15:15:39 [notice] 39#39: exiting
+2021/12/27 15:15:39 [notice] 36#36: exiting
+2021/12/27 15:15:39 [notice] 39#39: exit
+2021/12/27 15:15:39 [notice] 32#32: exit
+2021/12/27 15:15:39 [notice] 33#33: exit
+2021/12/27 15:15:39 [notice] 37#37: exit
+2021/12/27 15:15:39 [notice] 35#35: exit
+2021/12/27 15:15:39 [notice] 38#38: exit
+2021/12/27 15:15:39 [notice] 34#34: exit
+2021/12/27 15:15:39 [notice] 36#36: exit
+2021/12/27 15:15:39 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/27 15:15:39 [notice] 1#1: worker process 32 exited with code 0
+2021/12/27 15:15:39 [notice] 1#1: worker process 34 exited with code 0
+2021/12/27 15:15:39 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 15:15:39 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/12/27 15:15:39 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2021/12/27 15:15:39 [notice] 1#1: worker process 33 exited with code 0
+2021/12/27 15:15:39 [notice] 1#1: worker process 36 exited with code 0
+2021/12/27 15:15:39 [notice] 1#1: worker process 37 exited with code 0
+2021/12/27 15:15:39 [notice] 1#1: worker process 38 exited with code 0
+2021/12/27 15:15:39 [notice] 1#1: worker process 39 exited with code 0
+2021/12/27 15:15:39 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/27 15:15:39 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2021/12/27 15:15:39 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/12/27 15:15:39 [notice] 1#1: worker process 35 exited with code 0
+2021/12/27 15:15:39 [notice] 1#1: exit
