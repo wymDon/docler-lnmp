@@ -13,6 +13,8 @@ services:
       - ./nginx/conf.d:/etc/nginx/conf.d
       - ./nginx/log:/var/log/nginx
       - ./www:/var/www/
+    environment:
+      TZ: ${TZ}
     container_name: d-nginx
     networks:
       - backend
@@ -24,6 +26,8 @@ services:
       - ./php/php-fpm.conf:/usr/local/etc/php-fpm.conf
       - ./php/php-fpm.d:/usr/local/etc/php-fpm.d
       - ./php/log:/var/log/
+    environment:
+      TZ: ${TZ}
     container_name: d-php
     networks:
       - backend
@@ -42,6 +46,7 @@ services:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      TZ: ${TZ}
     container_name: d-mysql
     restart: always
     networks:
@@ -55,6 +60,8 @@ services:
       - ./redis/redis.conf:/usr/local/etc/redis/redis.conf
       - ./redis/data:/data
     restart: always
+    environment:
+      TZ: ${TZ}
     container_name: d-redis
     networks:
       - backend
