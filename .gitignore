@@ -2,3 +2,4 @@
 /.vscode
 php/log/*
 nginx/log/*
+.env
